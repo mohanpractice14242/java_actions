@@ -14,3 +14,10 @@ jobs:
         run: |
           echo "Listing all files in the repository:"
           ls -R
+      - name: cloning the another repository 
+        run: |
+          git clone https://github.com/mohantest14242/java_testing.git 
+
+      - name: listing the all testcases and sorurce code 
+        run: |
+          ls 
