@@ -18,6 +18,6 @@ jobs:
         run: |
           git clone https://github.com/mohantest14242/java_testing.git 
 
-      - name: listing the all testcases and sorurce code 
+      - name: listing the all testcases and sorurce code1
         run: |
           ls 
